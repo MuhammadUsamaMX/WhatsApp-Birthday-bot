@@ -19,7 +19,7 @@ def sel_contact(cntname):
     gui.hotkey('enter')
     gui.sleep(1.5)
 if __name__ == "__main__":
-    df = pd.read_excel("contact birthday.xlsx")
+    df = pd.read_excel("contact.xlsx") #Your contact birthday file check demo.xlsx
     today = datetime.datetime.now().strftime("%d-%m")
     yearNow = datetime.datetime.now().strftime("%Y")
     writeInd = []
